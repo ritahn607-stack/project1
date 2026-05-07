@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title> Meals </title>
+        <link rel="stylesheet" type="text/css"
+        href="style.css" />
+    </head>
+    <body>
+        <div>
+            <button>
+                <a href="home.html"> Home </a>
+            </button>
+            <button>
+                <a href="AboutUs.html"> About Us </a>
+            </button>
+            <button>
+                <a href="Meals.html"> Meals </a>
+            </button>
+        </div>
+        
+        <h1> قائمة الوجبات: </h1>
+        <table border="border">
+            <tr>
+                <th> الرمز </th>
+                <th> الوجبة </th>
+                <th> السعر </th>
+                <th> إظهار التفاصيل </th>
+                <th> اختيار </th>
+            </tr>
+
+            <tr>
+                <td> SF_001 </td>
+                <td> فيليه سمك بالصوص الحار </td>
+                <td> 50000 ل.س</td>
+                <td class="center"> 
+                    <input type="checkbox" onclick="ShowHideElement(this, 'd1')"> 
+                </td>
+                <td class="center">
+                    <input type="checkbox" name="n1"
+                    value="اسم الوجبة: فيليه سمك بالصوص الحار               السعر: 50000 ل.س"
+                    id="50000">
+                </td>
+            </tr>
+
+            <tr id="d1" class="content">
+                <td colspan="5">
+                    <p>
+                        <img src="f.jpeg" alt="food1">
+                    </p>
+                    <p class="float"> <b> المكونات: </b> <br/>
+                    <ul>
+                        <li> 2 سمك فيليه </li>
+                        <li> ثوم مهروس </li>
+                        <li> بهارات </li>
+                        <li> عصير ليمون </li>
+                    </ul>
+
+                    <p> <b> الصوص الحار: </b> <br/>
+                    <ul>
+                        <li> زيت سمسم </li>
+                        <li> ثوم مهروس </li>
+                        <li> بهارات </li>
+                        <li> عصير ليمون </li>
+                        <li> صويا صوص </li>
+                        <li> فليفلة حمراء حارة مفرومة </li>
+                    </ul>
+                    </p>
+                </td>
+            </tr>
+
+            <tr>
+                <td>SF_002</td>
+                <td> سمكة حرة </td>
+                <td> 60000 ل.س </td>
+                <td class="center">
+                    <input type="checkbox" onclick="ShowHideElement(this, 'd2')">
+                </td>
+                <td class="center">
+                    <input type="checkbox" name="n1"
+                    value="اسم الوجبة: سمكة حرة                                        السعر: 60000 ل.س" 
+                    id="60000">
+                </td>
+            </tr>
+
+            <tr id="d2" class="content">
+                <td colspan="5">
+                    <img src="f2.jpeg" alt="food2">
+                    <p class="float"> <b> المكونات: </b> <br/>
+                    <ul>
+                        <li> 2 سمك ببرمندي </li>
+                        <li> ثوم مهروس </li>
+                        <li> بهارات </li>
+                        <li> ملح </li>
+                    </ul>
+
+                    <p> <b> الصوص الحار: </b> <br/>
+                    <ul>
+                        <li> كزبرة خضراء </li>
+                        <li> ثوم مهروس </li>
+                        <li> بصل </li>
+                        <li> صويا صوص </li>
+                        <li> فليفلة حمراء حارة مفرومة </li>
+                    </ul>
+                    </p>
+                </td>
+            </tr>
+
+            <tr>
+                <td>SF_003</td>
+                <td> صيادية السمك </td>
+                <td> 55000 ل.س</td>
+                <td class="center">
+                    <input type="checkbox" onclick="ShowHideElement(this, 'd3')">
+                </td>
+                <td class="center">
+                    <input type="checkbox" name="n1"
+                    value="اسم الوجبة: صيادية السمك                                السعر: 55000 ل.س" 
+                    id="55000">
+                </td>
+            </tr>
+
+            <tr id="d3" class="content">
+                <td colspan="5">
+                    <img src="f3.jpg" alt="food3">
+                    <p class="float"> <b> المكونات: </b> <br/>
+                    <ul>
+                        <li> سمك الهامور </li>
+                        <li> رز </li>
+                        <li> بهارات </li>
+                        <li> بصل </li>
+                        <li> ماء سلق السمك </li>
+                    </ul>
+                    </p>
+                </td>
+            </tr>
+
+            <tr>
+                <td>SF_004</td>
+                <td> روبيان بالثوم والليمون </td>
+                <td> 70000 ل.س</td>
+                <td class="center">
+                    <input type="checkbox" onclick="ShowHideElement(this, 'd4')">
+                </td>
+                <td class="center">
+                    <input type="checkbox" name="n1"
+                    value="اسم الوجبة:  روبيان بالثوم والليمون                     السعر: 70000 ل.س" 
+                    id="70000"> 
+                </td>
+            </tr>
+
+            <tr id="d4" class="content">
+                <td colspan="5">
+                    <img src="f4.jpg" alt="food4">
+                    <p class="float"> <b> المكونات: </b> <br/>
+                    <ul>
+                        <li> 2 سمك روبيان </li>
+                        <li> ثوم مهروس </li>
+                        <li> ليمون </li>
+                        <li> بهارات </li>
+                        <li> أعشاب (كزبرة خضراء أو بقدونس) </li>
+                    </ul>
+                    </p>
+                </td>
+            </tr>
+
+            <tr>
+                <td>SF_005</td>
+                <td> روبيان بالكريمة والجبن </td>
+                <td> 60000 ل.س</td>
+                <td class="center">
+                    <input type="checkbox" onclick="ShowHideElement(this, 'd5')">
+                </td>
+                <td class="center">
+                    <input type="checkbox" name="n1"
+                    value="اسم الوجبة: روبيان بالكريمة والجبن                        السعر: 60000 ل.س " 
+                    id="60000">
+                </td>
+            </tr>
+
+            <tr id="d5" class="content">
+                <td colspan="5">
+                    <img src="f5.jpg" alt="food5">
+                    <p class="float"> <b> المكونات: </b> <br/>
+                    <ul>
+                        <li> 2 سمك روبيان </li>
+                        <li> كريمة </li>
+                        <li> جبن موتزاريلا </li>
+                        <li> ثوم وبصل </li>
+                        <li> ملح وفلفل اسود </li>
+                    </ul>
+                    </p>
+                </td>
+            </tr>
+        </table>
+
+        <button onclick="checkChoices();" class="buttons"> متابعة </button>
+
+        <form id="f1" onsubmit="return validations()">
+            الاسم الكامل: <input type="text" id="FullName" />
+                <br/><br/>
+
+            الرقم الوطني: <input type="text" id="Nnum" />
+            <br/><br/>
+
+            تاريخ الولادة: <input type="text" id="BDate" />
+            <br/><br/>
+
+            رقم الموبايل: <input type="text" id="phone" />
+            <br/><br/>
+
+            الايميل: <input type="text" id="emailAdd" />
+            <br/><br/>
+
+            <input type="submit" name="submit" value="إرسال" class="buttons" />
+        </form>
+        
+        <script type="text/javaScript" src="myFunctions.js">
+        </script>
+    </body>
+</html>
